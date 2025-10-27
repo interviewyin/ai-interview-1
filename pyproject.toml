@@ -1,0 +1,16 @@
+[project]
+name = "los-key-validation"
+version = "1.0.0"
+description = "Bug Hunt Challenge - LOS Inbound Key Validation Service"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "fastapi[standard]==0.115.6",
+    "uvicorn[standard]==0.34.0",
+    "pydantic==2.10.6",
+    "cryptography==44.0.0",
+    "pytest==8.4.2",
+]
+
+[tool.uv]
+package = false

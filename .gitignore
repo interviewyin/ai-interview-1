@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Project specific
+data/keys.json
+data/plaintext_secrets.txt
+
+# DO NOT commit the solutions in the candidate's copy!
+# For interviewer copy only:
+# SOLUTION.md (remove from candidate package)
+
+# Distribution
+*.egg-info/
+dist/
+build/
