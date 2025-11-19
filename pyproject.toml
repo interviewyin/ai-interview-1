@@ -3,7 +3,7 @@ name = "los-key-validation"
 version = "1.0.0"
 description = "Bug Hunt Challenge - LOS Inbound Key Validation Service"
 readme = "README.md"
-requires-python = ">=3.9"
+requires-python = "==3.13"
 dependencies = [
     "fastapi[standard]==0.115.6",
     "uvicorn[standard]==0.34.0",
