@@ -52,6 +52,13 @@ ai-interview-1/
    - `data/keys.json` - Sample key database
    - `data/plaintext_secrets.txt` - Plaintext secrets for testing
 
+## Running FastAPI Server
+
+To run the FastAPI server, use the following command:
+```bash
+uv run fastapi dev app/main.py
+```
+
 ## Running Tests
 
 Run the test suite:
